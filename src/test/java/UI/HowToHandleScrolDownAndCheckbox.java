@@ -14,6 +14,7 @@ public class HowToHandleScrolDownAndCheckbox {
 		driver.get("https://omayo.blogspot.com/");
 		driver.manage().window().maximize();
 		
+		// Line 18-21 is used to scroll to the webElement
 		WebElement radio = driver.findElement(By.xpath("//input[@value='Car']"));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(radio);
