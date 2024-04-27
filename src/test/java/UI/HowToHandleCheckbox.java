@@ -15,10 +15,13 @@ public class HowToHandleCheckbox {
 		driver.get("https://omayo.blogspot.com/");
 		driver.manage().window().maximize();
 		
+		// just to checkbox and uncheckbox
 		driver.findElement(By.xpath("//div[@id='HTML33']//input[@value='Pen']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[@id='HTML33']//input[@value='Pen']")).click();
 		Thread.sleep(2000);
+		
+		
 		
 		
 		
