@@ -35,6 +35,8 @@ public class HowToHandleDropDowns_SelectMultipleOptns {
 		 * select.getAllSelectedOptions(); System.out.println(allItems1.size());
 		 * 
 		 */
+		
+		
 
 		WebElement firstSelected = select.getFirstSelectedOption();
 		System.out.println(firstSelected.getText());

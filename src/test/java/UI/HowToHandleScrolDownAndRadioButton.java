@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class HowToHandleScrolDownAndCheckbox {
+public class HowToHandleScrolDownAndRadioButton {
 	public static void main(String[] args) throws InterruptedException {
 
 		WebDriverManager.chromedriver();	
