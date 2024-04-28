@@ -17,20 +17,19 @@ public class RadioButtonCheckbox {
 		driver.navigate().to("https://www.singaporeair.com/en_UK/de/home#/managebooking");
 		driver.manage().window().maximize();
 		
-		/*
-		WebElement radio1 =  driver.findElement(By.id("redeemFlights"));
-		WebElement radio2 =  driver.findElement(By.id("bookFlights"));
+//		WebElement radio1 =  driver.findElement(By.id("redeemFlights"));
+//		WebElement radio2 =  driver.findElement(By.id("bookFlights"));
 		
-		radio1.click();
-		System.out.println(radio1.isSelected());
-		System.out.println(radio2.isSelected());     */
+//		radio1.click();
+//		System.out.println(radio1.isSelected());
+//		System.out.println(radio2.isSelected());    
 		
 		
-		//WebElement radio4 =  driver.findElement(By.id("eticketNumberRadio"));
+		WebElement radio4 =  driver.findElement(By.id("eticketNumberRadio"));
 		//WebElement radio4 =  driver.findElement(By.xpath("//*[@id=\"eticketNumberRadio\"]"));
-		//WebElement radio3 =  driver.findElement(By.id("bookReferenceRadio"));
-		driver.findElement(By.className("dwc--SiaCookie__PopupEssentialBtn dwc--SiaCookie__PopupAllBtn")).click();
-		driver.findElement(By.xpath("//*[@id=\"eticketNumberRadio\"]")).click();
+		WebElement radio3 =  driver.findElement(By.id("bookReferenceRadio"));
+		//driver.findElement(By.className("dwc--SiaCookie__PopupEssentialBtn dwc--SiaCookie__PopupAllBtn")).click();
+	
 		
 	/*	radio4.click();
 		System.out.println(radio3.isSelected());
