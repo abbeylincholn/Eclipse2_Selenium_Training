@@ -28,19 +28,7 @@ public class RadioButton {
 		System.out.println(radio1.isSelected());
 		System.out.println(radio2.isSelected());	
 		
-		//WebElement radio4 =  driver.findElement(By.id("eticketNumberRadio"));
-		//WebElement radio4 =  driver.findElement(By.xpath("//*[@id=\"eticketNumberRadio\"]"));
-		//WebElement radio3 =  driver.findElement(By.id("bookReferenceRadio"));
-		//driver.findElement(By.xpath("//*[@id=\"eticketNumberRadio\"]")).click();
-		
-	/*	radio4.click();
-		System.out.println(radio3.isSelected());
-		System.out.println(radio4.isSelected());
-		Thread.sleep(2000);		
-		
-		radio3.click();
-		System.out.println(radio3.isSelected());
-		System.out.println(radio4.isSelected());		 */	
+	
 		
 		}
 
