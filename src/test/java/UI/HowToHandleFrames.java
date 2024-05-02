@@ -27,8 +27,10 @@ public class HowToHandleFrames {
 		driver.switchTo().alert().accept();
 		driver.switchTo().parentFrame();
 		Thread.sleep(2000);
+		
 //		driver.switchTo().defaultContent();
 //		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//*[@id=\"menuButton\"]")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"navbarDropMenu\"]/span")).click();
