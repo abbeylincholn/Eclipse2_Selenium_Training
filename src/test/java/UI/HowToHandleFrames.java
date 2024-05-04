@@ -20,7 +20,7 @@ public class HowToHandleFrames {
 //			driver.switchTo().frame(0);	// frame by index
 //			driver.switchTo().frame("iframeResult"); // frame by name or Id
 
-		WebElement frame1 = driver.findElement(By.id("iframeResult")); // frame by webElement
+		WebElement frame1 = driver.findElement(By.xpath("//*[@id=\"iframeResult\"]")); // frame by webElement
 		driver.switchTo().frame(frame1);
 		driver.findElement(By.xpath("/html/body/button")).click();
 		Thread.sleep(2000);
