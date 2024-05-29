@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -35,8 +36,9 @@ public class HowToHandleWebTables2 {
 		WebElement radio = driver.findElement(By.xpath("//*[@id=\"home_top_twenty\"]/div/div[2]/a"));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(radio);
-		actions.perform();		
-		
+		actions.perform();			
+        
+        	
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));			
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"home_top_twenty\"]/div/div[2]/a"))).click();
 		
